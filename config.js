@@ -12,8 +12,8 @@ var config = {
             id: 'chapterA',
             alignment: 'right',
             title: '7 PRISON TOWNS',
-            image: 'Chateaugay<br>Beacon<br>Wilton<br>Kingston<br>Watertown<br>Dannemora<br>Rome',
-            description: '',
+            image: '',
+            description: 'Chateaugay<br>Beacon<br>Wilton<br>Kingston<br>Watertown<br>Dannemora<br>Rome',
             location: {
                 center: [-74.076,42.793],
                 zoom: 6.5,
