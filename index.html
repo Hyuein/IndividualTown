@@ -304,7 +304,7 @@ map.on("load", function() {
             marker.setLngLat(chapter.location.center);
         }
         if (chapter.onChapterEnter.length > 0) {
-            chapter.onChapterEnter.forEach(setLayerOpacity);
+            chapter.onChapterEnter.forEach(element => setLayerOpacity(element));
         }
         if (chapter.callback) {
             window[chapter.callback]();
@@ -324,7 +324,7 @@ map.on("load", function() {
         var chapter = config.chapters.find(chap => chap.id === response.element.id);
         response.element.classList.remove('active');
         if (chapter.onChapterExit.length > 0) {
-            chapter.onChapterExit.forEach(setLayerOpacity);
+            chapter.onChapterExit.forEach(element => setLayerOpacity(element));
         }
     });
 });
