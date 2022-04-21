@@ -118,7 +118,7 @@ var config = {
             alignment: 'right',
             title: 'Energy Park',
             image: './images/Tristan_Beacon.jpg',
-            description: 'Project description:From a declining prison system to a burgeoning clean energy system, from exostruture to infrastructure, a new picture of the future awaits us, one that may be bathed in “sunshine”.',
+            description: 'From a declining prison system to a burgeoning clean energy system, from exostruture to infrastructure, a new picture of the future awaits us, one that may be bathed in “sunshine”.',
             location: {
                 center: [-73.962,41.506],
                 zoom: 13,
