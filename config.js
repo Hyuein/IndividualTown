@@ -1,6 +1,6 @@
 var config = {
-    style: 'mapbox://styles/c4sr-gsapp/ckzfvwfo3000l14o87tmi6xef',
-    accessToken: 'pk.eyJ1IjoiYzRzci1nc2FwcCIsImEiOiJja2J0ajRtNzMwOHBnMnNvNnM3Ymw5MnJzIn0.fsTNczOFZG8Ik3EtO9LdNQ',
+    style: 'mapbox://styles/ead2200/cl1p9dy42000114qrg2q9w2n1',
+    accessToken: 'pk.eyJ1IjoiZWFkMjIwMCIsImEiOiJja3M2ZTIzcmIwOTg5MndwNXM5ODZ5d2J3In0.LQXO-PEblZkmvFSlZpSS1w',
     showMarkers: false,
     theme: 'light',
     title: '',
@@ -11,12 +11,12 @@ var config = {
         {
             id: 'chapter1',
             alignment: 'center',
-            title: 'Chapter 1',
-            image: '',
+            title: 'CHATEAUGAY',
+            image: './images/Chateaugay-01.png',
             description: 'uam erat volutpat. Sed ullamcorper convallis eros ut auctor. Cras vel iaculis ligula, et vestibulum metus.',
             location: {
-                center: [-77.409,37.532],
-                zoom: 18,
+                center: [-74.063,44.932],
+                zoom: 13,
                 pitch: 0,
                 bearing: 0.00
             },
@@ -32,12 +32,12 @@ var config = {
         {
             id: 'chapter2',
             alignment: 'left',
-            title: 'Chapter 2',
-            image: '',
+            title: 'BEACON',
+            image: './images/Beacon-01.png',
             description: 'uam erat volutpat. Sed ullamcorper convallis eros ut auctor. Cras vel iaculis ligula, et vestibulum metus.',
             location: {
-                center: [-77.441,37.509],
-                zoom: 12,
+                center: [-73.962,41.506],
+                zoom: 13,
                 pitch: 0,
                 bearing: 0.00
             },
@@ -53,12 +53,12 @@ var config = {
         {
             id: 'chapter3',
             alignment: 'right',
-            title: 'Chapter 3',
-            image: '',
+            title: 'WILTON',
+            image: './images/Wilton-01.png',
             description: 'uam erat volutpat. Sed ullamcorper convallis eros ut auctor. Cras vel iaculis ligula, et vestibulum metus.',
             location: {
-                center: [-77.441,37.509],
-                zoom: 18,
+                center: [-73.726,43.170],
+                zoom: 13,
                 pitch: 0,
                 bearing: 0.00
             },
@@ -70,6 +70,90 @@ var config = {
             onChapterExit: [
               
             ]
-        }
+        },
+         {
+            id: 'chapter4',
+            alignment: 'right',
+            title: 'KINGSTON',
+            image: './images/Kingston-01.png',
+            description: 'uam erat volutpat. Sed ullamcorper convallis eros ut auctor. Cras vel iaculis ligula, et vestibulum metus.',
+            location: {
+                center: [-73.986,41.927],
+                zoom: 13,
+                pitch: 0,
+                bearing: 0.00
+            },
+            onChapterEnter: [
+                {layer: 'poi-label', opacity: 0 },
+                {layer: 'road', opacity: 1 },
+                {layer: 'building', opacity: 0 }
+            ],
+            onChapterExit: [
+              
+            ]
+        },
+        {
+            id: 'chapter5',
+            alignment: 'left',
+            title: 'WATERTOWN',
+            image: './images/Watertown-01.png',
+            description: 'uam erat volutpat. Sed ullamcorper convallis eros ut auctor. Cras vel iaculis ligula, et vestibulum metus.',
+            location: {
+                center: [-75.894,43.956],
+                zoom: 13,
+                pitch: 0,
+                bearing: 0.00
+            },
+            onChapterEnter: [
+                {layer: 'poi-label', opacity: 0 },
+                {layer: 'road', opacity: 1 },
+                {layer: 'building', opacity: 0 }
+            ],
+            onChapterExit: [
+              
+            ]
+        },
+         {
+            id: 'chapter6',
+            alignment: 'right',
+            title: 'DANNEMORA',
+            image: './images/Dannemora-01.png',
+            description: 'uam erat volutpat. Sed ullamcorper convallis eros ut auctor. Cras vel iaculis ligula, et vestibulum metus.',
+            location: {
+                center: [-73.655,44.706],
+                zoom: 13,
+                pitch: 0,
+                bearing: 0.00
+            },
+            onChapterEnter: [
+                {layer: 'poi-label', opacity: 0 },
+                {layer: 'road', opacity: 1 },
+                {layer: 'building', opacity: 0 }
+            ],
+            onChapterExit: [
+              
+            ]
+        },
+         {
+            id: 'chapter7',
+            alignment: 'left',
+            title: 'ROME',
+            image: './images/Rome-01.png',
+            description: 'uam erat volutpat. Sed ullamcorper convallis eros ut auctor. Cras vel iaculis ligula, et vestibulum metus.',
+            location: {
+                center: [-75.464,43.212],
+                zoom: 13,
+                pitch: 0,
+                bearing: 0.00
+            },
+            onChapterEnter: [
+                {layer: 'poi-label', opacity: 0 },
+                {layer: 'road', opacity: 1 },
+                {layer: 'building', opacity: 0 }
+            ],
+            onChapterExit: [
+              
+            ]
+        },
     ]
 };
