@@ -222,7 +222,7 @@ var config = {
             id: 'chapter4A_Shulong',
             alignment: 'right',
             title: 'Connecting the motels',
-            image: './images/Shulong_Kingston.jpg',
+            image: './images/Shulong_Kingston.png',
             description: 'What if we help the residents living in the 14 motels in Ulster county establish a de-carceral alternative to connect with the farm and support themselves?',
             location: {
                 center: [-73.986,41.927],
