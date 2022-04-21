@@ -202,7 +202,7 @@ var config = {
             alignment: 'right',
             title: 'KINGSTON',
             image: './images/Kingston.jpeg',
-            description: 'uam erat volutpat. Sed ullamcorper convallis eros ut auctor. Cras vel iaculis ligula, et vestibulum metus.',
+            description: 'Town Population: 13,630<br>Historical Industry: Manufacturing<br>Prison Name: Beacon Correctional<br>Prison Years: 1932-2013<br>Prison Capacity: 161',
             location: {
                 center: [-73.986,41.927],
                 zoom: 13,
@@ -244,7 +244,7 @@ var config = {
             alignment: 'right',
             title: 'WATERTOWN',
             image: './images/Watertown.jpeg',
-            description: 'uam erat volutpat. Sed ullamcorper convallis eros ut auctor. Cras vel iaculis ligula, et vestibulum metus.',
+            description: 'Town Population: 13,630<br>Historical Industry: Manufacturing<br>Prison Name: Beacon Correctional<br>Prison Years: 1932-2013<br>Prison Capacity: 161',
             location: {
                 center: [-75.894,43.956],
                 zoom: 13,
@@ -286,7 +286,7 @@ var config = {
             alignment: 'right',
             title: 'DANNEMORA',
             image: './images/Dannemora.jpeg',
-            description: 'uam erat volutpat. Sed ullamcorper convallis eros ut auctor. Cras vel iaculis ligula, et vestibulum metus.',
+            description: 'Town Population: 13,630<br>Historical Industry: Manufacturing<br>Prison Name: Beacon Correctional<br>Prison Years: 1932-2013<br>Prison Capacity: 161',
             location: {
                 center: [-73.655,44.706],
                 zoom: 13,
@@ -328,7 +328,7 @@ var config = {
             alignment: 'right',
             title: 'ROME',
             image: './images/Rome.jpeg',
-            description: 'uam erat volutpat. Sed ullamcorper convallis eros ut auctor. Cras vel iaculis ligula, et vestibulum metus.',
+            description: 'Town Population: 13,630<br>Historical Industry: Manufacturing<br>Prison Name: Beacon Correctional<br>Prison Years: 1932-2013<br>Prison Capacity: 161',
             location: {
                 center: [-75.464,43.212],
                 zoom: 13,
