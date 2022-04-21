@@ -13,7 +13,7 @@ var config = {
             alignment: 'right',
             title: '7 PRISON TOWNS',
             image: '',
-            description: 'Chateaugay<br>Beacon<br>Wilton<br>Kingston<br>Watertown<br>Dannemora<br>Rome',
+            description: 'Chateaugay<br>Chateaugay Correctional<br><br>Beacon<br>Beacon Correctional<br><br>Wilton<br>Mount McGregor Correctional<br><br>Kingston<br>Motels<br><br>Watertown<br>Watertown Correctional<br><br>Dannemora<br>Clinton Annex at Clinton Correctional<br><br>Rome<br>Mohawk Correctional',
             location: {
                 center: [-74.076,42.793],
                 zoom: 6.5,
