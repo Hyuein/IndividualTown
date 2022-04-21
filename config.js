@@ -30,11 +30,11 @@ var config = {
             ]
         },
         {
-            id: 'chapterA',
+            id: 'chapter1A_Sanober',
             alignment: 'right',
-            title: 'PROJECT SANI',
+            title: 'Reimagining The Justice System and Infrastructures of Harm: A Toolkit',
             image: './images/placeholder.jpg',
-            description: 'project description',
+            description: 'What would our towns, cities and institutions look like if we redirected the justice system away from punitive measures and towards restorative measures?',
             location: {
                 center: [-74.076,42.793],
                 zoom: 6.5,
@@ -114,11 +114,11 @@ var config = {
             ]
         },
         {
-            id: 'chapter2A',
+            id: 'chapter2A_Tristan',
             alignment: 'right',
-            title: 'PROJECT NAME',
+            title: 'Energy Park',
             image: './images/Tristan_Beacon.jpg',
-            description: 'project description',
+            description: 'Project description:From a declining prison system to a burgeoning clean energy system, from exostruture to infrastructure, a new picture of the future awaits us, one that may be bathed in “sunshine”.',
             location: {
                 center: [-73.962,41.506],
                 zoom: 13,
@@ -156,11 +156,11 @@ var config = {
             ]
         },
         {
-            id: 'chapter3A',
+            id: 'chapter3A_Junho',
             alignment: 'right',
             title: 'PROJECT NAME',
             image: './images/Junho_wilton.jpeg',
-            description: 'project description',
+            description: 'Replacing the exploitative prison system of rural New York, the cannabis campus, which consists of a retrofitted farm, tourism laboratory, and sensuous dispensary will change the old exploitative relationship between the economic driver and the related actors to a more sustainable and fun one.',
             location: {
                 center: [-73.726,43.170],
                 zoom: 13,
@@ -177,11 +177,11 @@ var config = {
             ]
         },
         {
-            id: 'chapter3B',
+            id: 'chapter3B_Ethan',
             alignment: 'right',
             title: 'PROJECT NAME',
-            image: './images/placeholder.jpg',
-            description: 'project description',
+            image: './images/Ethan_Wilton.jpeg',
+            description: 'Through the introduction of a sustainable colocation edge data center, Wilton will have the proper digital infrastructure and broadband access to instigate an economic renaissance that will break down the extractive nature of the town’s sprawling cul-de-sac neighborhoods and imposing distribution centers.',
             location: {
                 center: [-73.726,43.170],
                 zoom: 13,
@@ -219,11 +219,11 @@ var config = {
             ]
         },
         {
-            id: 'chapter4A',
+            id: 'chapter4A_Shulong',
             alignment: 'right',
-            title: 'PROJECT NAME',
-            image: './images/placeholder.jpg',
-            description: 'uam erat volutpat. Sed ullamcorper convallis eros ut auctor. Cras vel iaculis ligula, et vestibulum metus.',
+            title: 'Connecting the motels',
+            image: './images/Shulong_Kingston.jpg',
+            description: 'What if we help the residents living in the 14 motels in Ulster county establish a de-carceral alternative to connect with the farm and support themselves?',
             location: {
                 center: [-73.986,41.927],
                 zoom: 13,
@@ -261,7 +261,7 @@ var config = {
             ]
         },
         {
-            id: 'chapter5a',
+            id: 'chapter5a_Leon',
             alignment: 'right',
             title: 'TITLE',
             image: './images/placeholder.jpg',
@@ -303,11 +303,11 @@ var config = {
             ]
         },
         {
-            id: 'chapter6A',
+            id: 'chapter6A_Hein',
             alignment: 'right',
-            title: 'PROJECT TITLE',
-            image: './images/placeholder.jpg',
-            description: 'project description',
+            title: 'Towards the Slowest Landfilling',
+            image: './images/Hein_Dannemora.jpg',
+            description: 'Prisons and Landfills are two bad neighbors often located nearby. This project turns the decline of the prison industry to the opportunity to have a less extractive, more sustainable industry by intercepting resources from landfills.',
             location: {
                 center: [-73.655,44.706],
                 zoom: 13,
@@ -345,7 +345,7 @@ var config = {
             ]
         },
         {
-            id: 'chapter7A',
+            id: 'chapter7A_Yani',
             alignment: 'right',
             title: 'RPROJECT TITLE',
             image: './images/placeholder.jpg',
