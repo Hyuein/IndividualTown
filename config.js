@@ -9,11 +9,32 @@ var config = {
     footer: '',
     chapters: [
         {
+            id: 'chapterA',
+            alignment: 'right',
+            title: '7 PRISON TOWNS',
+            image: '',
+            description: '',
+            location: {
+                center: [-74.076,42.793],
+                zoom: 6.5,
+                pitch: 0,
+                bearing: 0.00
+            },
+            onChapterEnter: [
+                {layer: 'poi-label', opacity: 0 },
+                {layer: 'road', opacity: 0 },
+                {layer: 'building', opacity:1 }
+            ],
+            onChapterExit: [
+              
+            ]
+        },
+        {
             id: 'chapter1',
             alignment: 'right',
             title: 'CHATEAUGAY',
             image: './images/Chateaugay.jpeg',
-            description: '*Chateaugay Correctional*<br>Prison Years: 1990-2014<br>Capacity: 195',
+            description: 'Town Population: 1,595<br>Historical Industry: Manufacturing<br>Prison Name: Chateaugay Correctional<br>Prison Years: 1990-2014<br>Prison Capacity: 195',
             location: {
                 center: [-74.063,44.932],
                 zoom: 13,
