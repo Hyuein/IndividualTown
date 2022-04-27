@@ -22,8 +22,8 @@ var config = {
             },
             onChapterEnter: [
                 {layer: 'POI Text', opacity: 0 },
-                {layer: 'Prison Name', opacity: 0 }
-                {layer: 'individualtown-building', opacity: 0 }
+                {layer: 'Prison Name', opacity: 0 },
+                {layer: 'individualtown-building', opacity: 0 },
                 {layer: 'individualtown-road', opacity: 0 }
             ],
             onChapterExit: [
