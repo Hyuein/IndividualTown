@@ -417,7 +417,7 @@ var config = {
                 {layer: 'poi-tristan outline', opacity: 1 },
                 {layer: 'poi-tristan text', opacity: 1 },
                 {layer: 'pointsofinterest-outline', opacity: 1 },
-                {layer: 'pointsofinterest-fill', opacity: 1 },
+                {layer: 'pointsofinterest-fill', opacity: 0.5 },
                 {layer: 'Prison Name', opacity: 1 },
                 {layer: 'prison-boundaries-outline', opacity: 1 },
             ],
@@ -447,7 +447,7 @@ var config = {
                 {layer: 'poi-tristan outline', opacity: 1 },
                 {layer: 'poi-tristan text', opacity: 1 },
                 {layer: 'pointsofinterest-outline', opacity: 1 },
-                {layer: 'pointsofinterest-fill', opacity: 1 },
+                {layer: 'pointsofinterest-fill', opacity: 0.5 },
                 {layer: 'Prison Name', opacity: 1},
                 {layer: 'prison-boundaries-outline', opacity: 1 },
             ],
@@ -477,9 +477,10 @@ var config = {
                 {layer: 'poi-tristan outline', opacity: 1 },
                 {layer: 'poi-tristan text', opacity: 1 },
                 {layer: 'pointsofinterest-outline', opacity: 1 },
-                {layer: 'pointsofinterest-fill', opacity: 1 },
+                {layer: 'pointsofinterest-fill', opacity: 0.5 },
                 {layer: 'Prison Name', opacity: 1},
                 {layer: 'prison-boundaries-outline', opacity: 1 },
+                {layer: 'pointesofinterest-rome-fill', opacity: 0.5 }
             ],
             onChapterExit: [
               
@@ -507,9 +508,10 @@ var config = {
                 {layer: 'poi-tristan outline', opacity: 1 },
                 {layer: 'poi-tristan text', opacity: 1 },
                 {layer: 'pointsofinterest-outline', opacity: 1 },
-                {layer: 'pointsofinterest-fill', opacity: 1 },
+                {layer: 'pointsofinterest-fill', opacity: 0.5 },
                 {layer: 'Prison Name', opacity: 1},
                 {layer: 'prison-boundaries-outline', opacity: 1 },
+                {layer: 'pointesofinterest-rome-fill', opacity: 0.5 }
             ],
             onChapterExit: [
               
