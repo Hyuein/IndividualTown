@@ -32,9 +32,9 @@ var config = {
         {
             id: 'chapter1A_Sanober',
             alignment: 'right',
-            title: 'Reimagining The Justice System and Infrastructures of Harm: A Toolkit',
+            title: 'Reimagining the Justice System at Grassroots Level',
             image: './images/placeholder.jpg',
-            description: 'What would our towns, cities and institutions look like if we redirected the justice system away from punitive measures and towards restorative measures?',
+            description: 'What would it mean for our towns, cities and institutions if we redirected the justice system away from punitive measures and towards restorative measures?',
             location: {
                 center: [-74.076,42.793],
                 zoom: 6.5,
@@ -57,7 +57,7 @@ var config = {
             image: './images/Chateaugay.jpeg',
             description: 'Town Population: 1,595<br>Historical Industry: Manufacturing<br>Prison Name: Chateaugay Correctional<br>Prison Years: 1990-2014<br>Prison Capacity: 195',
             location: {
-                center: [-74.063,44.932],
+                center: [-74.042, 44.927],
                 zoom: 13,
                 pitch: 0,
                 bearing: 0.00
@@ -72,13 +72,13 @@ var config = {
             ]
         },
         {
-            id: 'chapter1A',
+            id: 'chapter1A_Shan',
             alignment: 'right',
             title: 'PROJECT NAME',
             image: './images/placeholder.jpg',
             description: 'project discription',
             location: {
-                center: [-74.063,44.932],
+                center: [-74.042, 44.927],
                 zoom: 13,
                 pitch: 0,
                 bearing: 0.00
@@ -97,7 +97,7 @@ var config = {
             alignment: 'right',
             title: 'BEACON',
             image: './images/Beacon.jpeg',
-            description: 'Town Population: 13,630<br>Historical Industry: Manufacturing<br>Prison Name: Beacon Correctional<br>Prison Years: 1932-2013<br>Prison Capacity: 161',
+            description: 'Town Population: 14,571<br>Historical Industry: Manufacturing<br>Prison Name: Downstate correctional facility<br>Prison Years: 1979-2013<br>Prison Capacity: 1221',
             location: {
                 center: [-73.962,41.506],
                 zoom: 13,
@@ -117,7 +117,7 @@ var config = {
             id: 'chapter2A_Tristan',
             alignment: 'right',
             title: 'Energy Park',
-            image: './images/Tristan_Beacon.jpg',
+            image: './images/Tristan.jpg',
             description: 'From a declining prison system to a burgeoning clean energy system, from exostruture to infrastructure, a new picture of the future awaits us, one that may be bathed in “sunshine”.',
             location: {
                 center: [-73.962,41.506],
@@ -202,7 +202,7 @@ var config = {
             alignment: 'right',
             title: 'KINGSTON',
             image: './images/Kingston.jpeg',
-            description: 'Town Population: 13,630<br>Historical Industry: Manufacturing<br>Prison Name: Beacon Correctional<br>Prison Years: 1932-2013<br>Prison Capacity: 161',
+            description: 'Town Population: 23,070<br>Historical Industry: cement, bricks, bluestone',
             location: {
                 center: [-73.986,41.927],
                 zoom: 13,
@@ -221,9 +221,9 @@ var config = {
         {
             id: 'chapter4A_Shulong',
             alignment: 'right',
-            title: 'Connecting the motels',
-            image: './images/Shulong_Kingston.png',
-            description: 'What if we help the residents living in the 14 motels in Ulster county establish a de-carceral alternative to connect with the farm and support themselves?',
+            title: 'RE-CONNECTING THE MOTEL',
+            image: './images/Shulong.jpg',
+            description: 'What if we help residents of emergency housing in the 14  Motels establish a de-carceral alternative to help them move away from state support toward mobility and Independence?',
             location: {
                 center: [-73.986,41.927],
                 zoom: 13,
@@ -244,7 +244,7 @@ var config = {
             alignment: 'right',
             title: 'WATERTOWN',
             image: './images/Watertown.jpeg',
-            description: 'Town Population: 13,630<br>Historical Industry: Manufacturing<br>Prison Name: Beacon Correctional<br>Prison Years: 1932-2013<br>Prison Capacity: 161',
+            description: 'Town Population: 24.685<br>Historical Industry: Manufacturing<br>Prison Name: Watertown Correctional Facility<br>Prison Years: 1981-2021<br>Prison Capacity: 637',
             location: {
                 center: [-75.894,43.956],
                 zoom: 13,
@@ -263,9 +263,9 @@ var config = {
         {
             id: 'chapter5a_Leon',
             alignment: 'right',
-            title: 'TITLE',
+            title: 'Watertown´s Military-Industrial Dystopia',
             image: './images/placeholder.jpg',
-            description: 'project description',
+            description: 'What if we stop the military-industrial complex to keep assimilating infrastructures in Watertown by producing an aneducational performance in the prison to conscientize and prevent the community?',
             location: {
                 center: [-75.894,43.956],
                 zoom: 13,
