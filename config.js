@@ -13,7 +13,7 @@ var config = {
             alignment: 'right',
             title: '7 PRISON TOWNS',
             image: '',
-            description: 'Chateaugay<br>Chateaugay Correctional<br><br>Beacon<br>Beacon Correctional<br><br>Wilton<br>Mount McGregor Correctional<br><br>Kingston<br>Motels<br><br>Watertown<br>Watertown Correctional<br><br>Dannemora<br>Clinton Annex at Clinton Correctional<br><br>Rome<br>Mohawk Correctional',
+            description: 'Reimagining the Justice System at Grassroots Level<br><br>Chateaugay<br>Chateaugay Correctional<br>Shan Project<br><br>Beacon<br>Downstate correctional facility<br>Energy Park<br><br>Wilton<br>Mount McGregor Correctional<br>Junho Project<br>Ethan Project<br><br>Kingston<br>Motels<br>Shulong Project<br><br>Watertown<br>Watertown Correctional<br>Leon Project<br><br>Dannemora<br>Clinton Annex at Clinton Correctional<br>Towards the Slowest Landfilling<br><br>Rome<br>Mohawk Correctional<br>Yani Project',
             location: {
                 center: [-74.076,42.793],
                 zoom: 6.5,
@@ -22,6 +22,9 @@ var config = {
             },
             onChapterEnter: [
                 {layer: 'POI Text', opacity: 0 },
+                {layer: 'Prison Name', opacity: 0 }
+                {layer: 'individualtown-building', opacity: 0 }
+                {layer: 'individualtown-road', opacity: 0 }
             ],
             onChapterExit: [
               
@@ -200,13 +203,15 @@ var config = {
             image: './images/Kingston.jpeg',
             description: 'Town Population: 23,070<br>Historical Industry: cement, bricks, bluestone',
             location: {
-                center: [-73.986,41.927],
-                zoom: 13,
+                center: [-73.942, 41.922],
+                zoom: 12,
                 pitch: 0,
                 bearing: 0.00
             },
             onChapterEnter: [
                 {layer: 'POI Text', opacity: 1 },
+                {layer: 'Prison Name', opacity: 0 },
+                {layer: 'prison-boundaries-outline', opacity: 0 },
                 {layer: 'road', opacity: 1 },
                 {layer: 'building', opacity: 0 }
             ],
@@ -221,13 +226,15 @@ var config = {
             image: './images/Shulong.jpg',
             description: 'What if we help residents of emergency housing in the 14  Motels establish a de-carceral alternative to help them move away from state support toward mobility and Independence?',
             location: {
-                center: [-73.986,41.927],
-                zoom: 13,
+                center: [-73.942, 41.922],
+                zoom: 12,
                 pitch: 0,
                 bearing: 0.00
              },
                 onChapterEnter: [
                 {layer: 'POI Text', opacity: 1 },
+                {layer: 'Prison Name', opacity: 0 },
+                {layer: 'prison-boundaries-outline', opacity: 0 },
                 {layer: 'road', opacity: 1 },
                 {layer: 'building', opacity: 0 }
             ],
@@ -242,8 +249,8 @@ var config = {
             image: './images/Watertown.jpeg',
             description: 'Town Population: 24.685<br>Historical Industry: Manufacturing<br>Prison Name: Watertown Correctional Facility<br>Prison Years: 1981-2021<br>Prison Capacity: 637',
             location: {
-                center: [-75.894,43.956],
-                zoom: 13,
+                center: [-75.69, 43.990],
+                zoom: 11.4,
                 pitch: 0,
                 bearing: 0.00
             },
@@ -263,13 +270,15 @@ var config = {
             image: './images/placeholder.jpg',
             description: 'What if we stop the military-industrial complex to keep assimilating infrastructures in Watertown by producing an aneducational performance in the prison to conscientize and prevent the community?',
             location: {
-                center: [-75.894,43.956],
-                zoom: 13,
+                center: [-75.69, 43.990],
+                zoom: 11.4,
                 pitch: 0,
                 bearing: 0.00
             },
             onChapterEnter: [
                 {layer: 'POI Text', opacity: 1 },
+                {layer: 'Prison Name', opacity: 0 },
+                {layer: 'prison-boundaries-outline', opacity: 0 },
                 {layer: 'road', opacity: 1 },
                 {layer: 'building', opacity: 0 }
             ],
@@ -284,8 +293,8 @@ var config = {
             image: './images/Dannemora.jpeg',
             description: 'Town Population: 4,219<br>Historical Industry: Manufacturing<br>Prison Name: Clinton Annex at Clinton Correctional<br>Prison Years: 1972-2021<br>Prison Capacity: 735',
             location: {
-                center: [-73.655,44.706],
-                zoom: 13,
+                center: [-73.551, 44.669],
+                zoom: 10.8,
                 pitch: 0,
                 bearing: 0.00
             },
