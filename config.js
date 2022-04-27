@@ -430,7 +430,7 @@ var config = {
             alignment: 'right',
             title: 'Towards the Slowest Landfilling',
             image: './images/Hyuein.jpg',
-            description: 'Hyuein Song<br><br>Prisons and Landfills are two bad neighbors often located nearby. This project turns the decline of the prison industry to the opportunity to have a less extractive, more sustainable industry by intercepting resources from landfills.',
+            description: 'Hyuein Song<br><br>Prisons and Landfills are often located nearby each other as bad neighbors to the same towns. "The Slow Track" takes the closure of prisons as an opportunity to end another extractive industry - minimize the growth of the landfills,  stop the need for landfills in the future, and provide better jobs and a sustainable industry in the town.',
             location: {
                 center: [-73.57,44.706],
                 zoom: 11.5,
