@@ -42,7 +42,7 @@ var config = {
             id: 'chapter1A_Sanober',
             alignment: 'right',
             title: 'Reimagining the Justice System at Grassroots Level',
-            image: './images/placeholder.jpg',
+            image: './images/Sanober.jpg',
             description: 'Sanober Khan<br><br>What would it mean for our towns, cities and institutions if we redirected the justice system away from punitive measures and towards restorative measures?',
             location: {
                 center: [-74.076,42.793],
@@ -100,9 +100,9 @@ var config = {
         {
             id: 'chapter1A_Shan',
             alignment: 'right',
-            title: 'A De-carcenated Alternative',
-            image: './images/placeholder.jpg',
-            description: 'Shan Li<br><br>The project focuses on how to create a dairy farm community that inhabaits human and happy cows-An alternative local economy that replacing the prison industry and decarcenated the cows from fenced environment and enclosed barns.',
+            title: 'A De-carcerated Alternative',
+            image: './images/Shan.jpg',
+            description: 'Shan Li<br><br>The project focuses on how to create a dairy farm community that inhabaits human and happy cows-An alternative local economy that replacing the prison industry and decarcerated the cows from fenced environment and enclosed barns.',
             location: {
                 center: [-74.042, 44.927],
                 zoom: 13,
@@ -131,7 +131,7 @@ var config = {
             alignment: 'right',
             title: 'BEACON',
             image: './images/Beacon.jpeg',
-            description: 'Town Population: 14,571<br>Historical Industry: Manufacturing<br>Prison Name: Downstate correctional facility<br>Prison Years: 1979-2013<br>Prison Capacity: 1221',
+            description: 'Town Population: 14,571<br>Historical Industry: Manufacturing<br>Prison Name: Downstate correctional facility<br>Prison Years: 1979-2022<br>Prison Capacity: 1,221',
             location: {
                 center: [-73.919, 41.507],
                 zoom: 13,
@@ -221,7 +221,7 @@ var config = {
             id: 'chapter3A_Junho',
             alignment: 'right',
             title: 'Young, Wild & Free',
-            image: './images/Junho_wilton.jpeg',
+            image: './images/Junho.jpeg',
             description: 'Junho Lee<br><br>Replacing the exploitative prison system of rural New York, the cannabis campus, which consists of a retrofitted farm, tourism laboratory, and sensuous dispensary will transform the relationship between the economic driver and its related actors into a less extractive, more sustainable, and fun system.',
             location: {
                 center: [-73.68, 43.190],
@@ -250,7 +250,7 @@ var config = {
             id: 'chapter3B_Ethan',
             alignment: 'right',
             title: 'PROJECT NAME',
-            image: './images/Ethan_Wilton.jpeg',
+            image: './images/Ethan.jpeg',
             description: 'Ethan Davis<br><br>Through the introduction of a sustainable colocation edge data center, Wilton will have the proper digital infrastructure and broadband access to instigate an economic renaissance that will break down the extractive nature of the town’s sprawling cul-de-sac neighborhoods and imposing distribution centers.',
             location: {
                 center: [-73.68, 43.190],
@@ -370,7 +370,7 @@ var config = {
             alignment: 'right',
             title: 'Watertown´s Military-Industrial Dystopia',
             image: './images/Leon.png',
-            description: 'Leon Duval<br><br>What if we stop the military-industrial complex to keep assimilating infrastructures in Watertown by producing an aneducational performance in the prison to conscientize and prevent the community?',
+            description: 'Leon Duval<br><br>What if we stop the military-industrial complex from seamlessly assimilating into the  infrastructures of Watertown by producing an an-educational performance in the prison to expose it to what  has been evacuated? Can we use this void to make room for repair and an alternative future?',
             location: {
                 center: [-75.69, 43.990],
                 zoom: 11.2,
@@ -429,7 +429,7 @@ var config = {
             id: 'chapter6A_Hein',
             alignment: 'right',
             title: 'Towards the Slowest Landfilling',
-            image: './images/Hein_Dannemora.jpg',
+            image: './images/Hyuein.jpg',
             description: 'Hyuein Song<br><br>Prisons and Landfills are two bad neighbors often located nearby. This project turns the decline of the prison industry to the opportunity to have a less extractive, more sustainable industry by intercepting resources from landfills.',
             location: {
                 center: [-73.57,44.706],
@@ -460,7 +460,7 @@ var config = {
             alignment: 'right',
             title: 'ROME',
             image: './images/Rome.jpeg',
-            description: 'Town Population: 32,253<br>Historical Industry: MMetal Industries (Mining & Manufacturing)<br>Prison Name: Oneida Correctional Facility<br>Prison Years: 1893-2011<br>Prison Capacity: 998',
+            description: 'Town Population: 32,253<br>Historical Industry: Metal Industries (Mining & Manufacturing)<br>Prison Name: Oneida Correctional Facility<br>Prison Years: 1893-2011<br>Prison Capacity: 998',
             location: {
                 center: [-75.385, 43.244],
                 zoom: 12,
@@ -490,7 +490,7 @@ var config = {
             id: 'chapter7A_Yani',
             alignment: 'right',
             title: 'RPROJECT TITLE',
-            image: './images/placeholder.jpg',
+            image: './images/Yani.jpg',
             description: 'Yani Gao<br><br>What if the old Erie Canal acquires ‘soft edges’ in Rome, NY, to promote an alternative town adapting to annual flooding and reflect on past exclusive history with inclusive, conscious planning and building programs.',
             location: {
                 center: [-75.385, 43.244],
