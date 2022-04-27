@@ -369,7 +369,7 @@ var config = {
             id: 'chapter5a_Leon',
             alignment: 'right',
             title: 'Watertown´s Military-Industrial Dystopia',
-            image: './images/placeholder.jpg',
+            image: './images/Leon.png',
             description: 'Leon Duval<br><br>What if we stop the military-industrial complex to keep assimilating infrastructures in Watertown by producing an aneducational performance in the prison to conscientize and prevent the community?',
             location: {
                 center: [-75.69, 43.990],
