@@ -21,9 +21,7 @@ var config = {
                 bearing: 0.00
             },
             onChapterEnter: [
-                {layer: 'poi-label', opacity: 0 },
-                {layer: 'road', opacity: 0 },
-                {layer: 'building', opacity:1 }
+                {layer: 'POI Text', opacity: 0 },
             ],
             onChapterExit: [
               
@@ -42,9 +40,7 @@ var config = {
                 bearing: 0.00
             },
             onChapterEnter: [
-                {layer: 'poi-label', opacity: 0 },
-                {layer: 'road', opacity: 0 },
-                {layer: 'building', opacity:1 }
+                {layer: 'POI Text', opacity: 0 },
             ],
             onChapterExit: [
               
@@ -63,7 +59,7 @@ var config = {
                 bearing: 0.00
             },
             onChapterEnter: [
-                {layer: 'poi-label', opacity: 0 },
+                {layer: 'POI Text', opacity: 1 },
                 {layer: 'road', opacity: 0 },
                 {layer: 'building', opacity:1 }
             ],
@@ -84,7 +80,7 @@ var config = {
                 bearing: 0.00
             },
             onChapterEnter: [
-                {layer: 'poi-label', opacity: 0 },
+                {layer: 'POI Text', opacity: 1 },
                 {layer: 'road', opacity: 0 },
                 {layer: 'building', opacity:1 }
             ],
@@ -99,13 +95,13 @@ var config = {
             image: './images/Beacon.jpeg',
             description: 'Town Population: 14,571<br>Historical Industry: Manufacturing<br>Prison Name: Downstate correctional facility<br>Prison Years: 1979-2013<br>Prison Capacity: 1221',
             location: {
-                center: [-73.962,41.506],
+                center: [-73.919, 41.507],
                 zoom: 13,
                 pitch: 0,
                 bearing: 0.00
             },
             onChapterEnter: [
-                {layer: 'poi-label', opacity: 1 },
+                {layer: 'POI Text', opacity: 1 },
                 {layer: 'road', opacity: 1 },
                 {layer: 'building', opacity: 0 }
             ],
@@ -120,13 +116,13 @@ var config = {
             image: './images/Tristan.jpg',
             description: 'From a declining prison system to a burgeoning clean energy system, from exostruture to infrastructure, a new picture of the future awaits us, one that may be bathed in “sunshine”.',
             location: {
-                center: [-73.962,41.506],
+                center: [-73.919, 41.507],
                 zoom: 13,
                 pitch: 0,
                 bearing: 0.00
             },
             onChapterEnter: [
-                {layer: 'poi-label', opacity: 1 },
+                {layer: 'POI Text', opacity: 1 },
                 {layer: 'road', opacity: 1 },
                 {layer: 'building', opacity: 0 }
             ],
@@ -141,13 +137,13 @@ var config = {
             image: './images/Wilton.jpeg',
             description: 'Town Population: 16,990<br>Historical Industry: Mining<br>Prison Name: Mount McGregor Correctional<br>Prison Years: 1976-2014<br>Prison Capacity: 695',
             location: {
-                center: [-73.726,43.170],
+                center: [-73.696, 43.177],
                 zoom: 13,
                 pitch: 0,
                 bearing: 0.00
             },
             onChapterEnter: [
-                {layer: 'poi-label', opacity: 0 },
+                {layer: 'POI Text', opacity: 1 },
                 {layer: 'road', opacity: 1 },
                 {layer: 'building', opacity: 0 }
             ],
@@ -162,13 +158,13 @@ var config = {
             image: './images/Junho_wilton.jpeg',
             description: 'Replacing the exploitative prison system of rural New York, the cannabis campus, which consists of a retrofitted farm, tourism laboratory, and sensuous dispensary will change the old exploitative relationship between the economic driver and the related actors to a more sustainable and fun one.',
             location: {
-                center: [-73.726,43.170],
+                center: [-73.696, 43.177],
                 zoom: 13,
                 pitch: 0,
                 bearing: 0.00
             },
             onChapterEnter: [
-                {layer: 'poi-label', opacity: 0 },
+                {layer: 'POI Text', opacity: 1 },
                 {layer: 'road', opacity: 1 },
                 {layer: 'building', opacity: 0 }
             ],
@@ -183,13 +179,13 @@ var config = {
             image: './images/Ethan_Wilton.jpeg',
             description: 'Through the introduction of a sustainable colocation edge data center, Wilton will have the proper digital infrastructure and broadband access to instigate an economic renaissance that will break down the extractive nature of the town’s sprawling cul-de-sac neighborhoods and imposing distribution centers.',
             location: {
-                center: [-73.726,43.170],
+                center: [-73.696, 43.177],
                 zoom: 13,
                 pitch: 0,
                 bearing: 0.00
             },
             onChapterEnter: [
-                {layer: 'poi-label', opacity: 0 },
+                {layer: 'POI Text', opacity: 1 },
                 {layer: 'road', opacity: 1 },
                 {layer: 'building', opacity: 0 }
             ],
@@ -210,7 +206,7 @@ var config = {
                 bearing: 0.00
             },
             onChapterEnter: [
-                {layer: 'poi-label', opacity: 0 },
+                {layer: 'POI Text', opacity: 1 },
                 {layer: 'road', opacity: 1 },
                 {layer: 'building', opacity: 0 }
             ],
@@ -231,7 +227,7 @@ var config = {
                 bearing: 0.00
              },
                 onChapterEnter: [
-                {layer: 'poi-label', opacity: 0 },
+                {layer: 'POI Text', opacity: 1 },
                 {layer: 'road', opacity: 1 },
                 {layer: 'building', opacity: 0 }
             ],
@@ -252,7 +248,7 @@ var config = {
                 bearing: 0.00
             },
             onChapterEnter: [
-                {layer: 'poi-label', opacity: 0 },
+                {layer: 'POI Text', opacity: 1 },
                 {layer: 'road', opacity: 1 },
                 {layer: 'building', opacity: 0 }
             ],
@@ -273,7 +269,7 @@ var config = {
                 bearing: 0.00
             },
             onChapterEnter: [
-                {layer: 'poi-label', opacity: 0 },
+                {layer: 'POI Text', opacity: 1 },
                 {layer: 'road', opacity: 1 },
                 {layer: 'building', opacity: 0 }
             ],
@@ -286,7 +282,7 @@ var config = {
             alignment: 'right',
             title: 'DANNEMORA',
             image: './images/Dannemora.jpeg',
-            description: 'Town Population: 13,630<br>Historical Industry: Manufacturing<br>Prison Name: Beacon Correctional<br>Prison Years: 1932-2013<br>Prison Capacity: 161',
+            description: 'Town Population: 4,219<br>Historical Industry: Manufacturing<br>Prison Name: Clinton Annex at Clinton Correctional<br>Prison Years: 1972-2021<br>Prison Capacity: 735',
             location: {
                 center: [-73.655,44.706],
                 zoom: 13,
@@ -294,7 +290,7 @@ var config = {
                 bearing: 0.00
             },
             onChapterEnter: [
-                {layer: 'poi-label', opacity: 0 },
+                {layer: 'POI Text', opacity: 1 },
                 {layer: 'road', opacity: 1 },
                 {layer: 'building', opacity: 0 }
             ],
@@ -315,7 +311,7 @@ var config = {
                 bearing: 0.00
             },
             onChapterEnter: [
-                {layer: 'poi-label', opacity: 0 },
+                {layer: 'POI Text', opacity: 1 },
                 {layer: 'road', opacity: 1 },
                 {layer: 'building', opacity: 0 }
             ],
@@ -336,7 +332,7 @@ var config = {
                 bearing: 0.00
             },
             onChapterEnter: [
-                {layer: 'poi-label', opacity: 0 },
+                {layer: 'POI Text', opacity: 1 },
                 {layer: 'road', opacity: 1 },
                 {layer: 'building', opacity: 0 }
             ],
@@ -357,7 +353,7 @@ var config = {
                 bearing: 0.00
             },
             onChapterEnter: [
-                {layer: 'poi-label', opacity: 0 },
+                {layer: 'POI Text', opacity: 1 },
                 {layer: 'road', opacity: 1 },
                 {layer: 'building', opacity: 0 }
             ],
