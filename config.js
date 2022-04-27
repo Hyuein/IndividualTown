@@ -140,7 +140,6 @@ var config = {
             },
             onChapterEnter: [
                 {layer: 'POI Text', opacity: 1 },
-                {layer: 'Prison Name', opacity: 1 },
                 {layer: 'individualtown-building', opacity: 1 },
                 {layer: 'individualtown-road', opacity: 1 },
                 {layer: 'individualtown-rail', opacity: 1 },
@@ -150,8 +149,8 @@ var config = {
                 {layer: 'poi-tristan text', opacity: 1 },
                 {layer: 'pointsofinterest-outline', opacity: 1 },
                 {layer: 'pointsofinterest-fill', opacity: 0.5 },
-                {layer: 'Prison Name', opacity: 0 },
-                {layer: 'prison-boundaries-outline', opacity: 0 },
+                {layer: 'Prison Name', opacity: 1 },
+                {layer: 'prison-boundaries-outline', opacity: 1 },
             ],
             onChapterExit: [
               
