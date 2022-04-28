@@ -11,7 +11,7 @@ var config = {
         {
             id: 'chapterA',
             alignment: 'right',
-            title: '7 PRISON TOWNS',
+            title: '9 Visions for Post-Prison New York State',
             image: '',
             description: 'NEW YORK STATE<br>Reimagining the Justice System at Grassroots Level<br><br>CHATEAUGAY: Chateaugay Correctional<br>A De-carcerated Alternative<br><br>BEACON: Downstate correctional facility<br>Energy Park<br><br>WILTON: Mount McGregor Correctional<br>Young, Wild & Free<br>Ethan Project<br><br>KINGSTON: 6 Motels<br>Re-Connecting the Motel<br><br>WATERTOWN: Watertown Correctional<br>Watertown´s Military-Industrial Dystopia<br><br>DANNEMORA: Clinton Annex at Clinton Correctional<br>Towards the Slowest Landfilling<br><br>ROME: Oneida Correctional Facility<br>Yani Project',
             location: {
