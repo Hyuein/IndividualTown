@@ -13,7 +13,7 @@ var config = {
             alignment: 'right',
             title: '7 PRISON TOWNS',
             image: '',
-            description: 'NEW YORK STATE<br>Reimagining the Justice System at Grassroots Level<br><br>CHATEAUGAY: Chateaugay Correctional<br>A De-carcerated Alternative<br><br>BEACON: Downstate correctional facility<br>Energy Park<br><br>WILTON: Mount McGregor Correctional<br>Young, Wild & Free<br>Ethan Project<br><br>KINGSTON: 6 Motels<br>Re-Connecting the Motel<br><br>WATERTOWN: Watertown Correctional<br>Watertown´s Military-Industrial Dystopia<br><br>DANNEMORA: Clinton Annex at Clinton Correctional<br>Towards the Slowest Landfilling<br><br>ROME: Mohawk Correctional<br>Yani Project',
+            description: 'NEW YORK STATE<br>Reimagining the Justice System at Grassroots Level<br><br>CHATEAUGAY: Chateaugay Correctional<br>A De-carcerated Alternative<br><br>BEACON: Downstate correctional facility<br>Energy Park<br><br>WILTON: Mount McGregor Correctional<br>Young, Wild & Free<br>Ethan Project<br><br>KINGSTON: 6 Motels<br>Re-Connecting the Motel<br><br>WATERTOWN: Watertown Correctional<br>Watertown´s Military-Industrial Dystopia<br><br>DANNEMORA: Clinton Annex at Clinton Correctional<br>Towards the Slowest Landfilling<br><br>ROME: Oneida Correctional Facility<br>Yani Project',
             location: {
                 center: [-74.076,42.793],
                 zoom: 6.5,
@@ -32,7 +32,9 @@ var config = {
                 {layer: 'pointsofinterest-outline', opacity: 0 },
                 {layer: 'pointsofinterest-fill', opacity: 0 },
                 {layer: 'pointesofinterest-rome-outline', opacity: 0 },
-                {layer: 'pointesofinterest-rome-fill', opacity: 0 }
+                {layer: 'pointesofinterest-rome-fill', opacity: 0 },
+                {layer: 'Prison Towns Text', opacity: 1 },
+                {layer: 'Prison Towns', opacity: 1 },
             ],
             onChapterExit: [
               
@@ -62,7 +64,9 @@ var config = {
                 {layer: 'pointsofinterest-outline', opacity: 0 },
                 {layer: 'pointsofinterest-fill', opacity: 0 },
                 {layer: 'pointesofinterest-rome-outline', opacity: 0 },
-                {layer: 'pointesofinterest-rome-fill', opacity: 0 }
+                {layer: 'pointesofinterest-rome-fill', opacity: 0 },
+                {layer: 'Prison Town', opacity: 0 },
+                {layer: 'Prison Town Text', opacity: 0 },
             ],
             onChapterExit: [
               
@@ -249,9 +253,9 @@ var config = {
         {
             id: 'chapter3B_Ethan',
             alignment: 'right',
-            title: 'PROJECT NAME',
+            title: 'Rurality Reconnected',
             image: './images/Ethan.jpg',
-            description: 'Ethan Davis<br><br>Through the introduction of a sustainable colocation edge data center, Wilton will have the proper digital infrastructure and broadband access to instigate an economic renaissance that will break down the extractive nature of the town’s sprawling cul-de-sac neighborhoods and imposing distribution centers.',
+            description: 'Ethan Davis<br><br>What if we replace a prison with an edge data center that will give rural citizens agency to achieve economic independence in the digital age?',
             location: {
                 center: [-73.68, 43.190],
                 zoom: 12.5,
@@ -489,7 +493,7 @@ var config = {
         {
             id: 'chapter7A_Yani',
             alignment: 'right',
-            title: 'RPROJECT TITLE',
+            title: 'Soft-edged Erie',
             image: './images/Yani.jpg',
             description: 'Yani Gao<br><br>What if the old Erie Canal acquires ‘soft edges’ in Rome, NY, to promote an alternative town adapting to annual flooding and reflect on past exclusive history with inclusive, conscious planning and building programs.',
             location: {
