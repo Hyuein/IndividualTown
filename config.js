@@ -267,7 +267,7 @@ var config = {
             alignment: 'right',
             title: 'Rurality Reconnected',
             image: './images/Ethan.jpg',
-            description: 'Ethan Davis<br><br>I tweaked my what if statement slightly: What if we replace the prison with an edge data center that will give rural citizens the agency to achieve economic independence in the digital age?',
+            description: 'Ethan Davis<br><br>What if we replace the prison with an edge data center that will give rural citizens the agency to achieve economic independence in the digital age?',
             location: {
                 center: [-73.68, 43.190],
                 zoom: 12.5,
