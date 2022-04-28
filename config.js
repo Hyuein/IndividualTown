@@ -250,7 +250,7 @@ var config = {
             id: 'chapter3B_Ethan',
             alignment: 'right',
             title: 'PROJECT NAME',
-            image: './images/Ethan.jpeg',
+            image: './images/Ethan.jpg',
             description: 'Ethan Davis<br><br>Through the introduction of a sustainable colocation edge data center, Wilton will have the proper digital infrastructure and broadband access to instigate an economic renaissance that will break down the extractive nature of the town’s sprawling cul-de-sac neighborhoods and imposing distribution centers.',
             location: {
                 center: [-73.68, 43.190],
