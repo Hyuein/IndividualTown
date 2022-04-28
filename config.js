@@ -65,8 +65,8 @@ var config = {
                 {layer: 'pointsofinterest-fill', opacity: 0 },
                 {layer: 'pointesofinterest-rome-outline', opacity: 0 },
                 {layer: 'pointesofinterest-rome-fill', opacity: 0 },
-                {layer: 'Prison Town', opacity: 0 },
-                {layer: 'Prison Town Text', opacity: 0 },
+                {layer: 'Prison Towns', opacity: 0 },
+                {layer: 'Prison Towns Text', opacity: 0 },
             ],
             onChapterExit: [
               
@@ -96,6 +96,8 @@ var config = {
                 {layer: 'poi-tristan text', opacity: 1 },
                 {layer: 'pointsofinterest-outline', opacity: 1 },
                 {layer: 'pointsofinterest-fill', opacity: 0.5 },
+                {layer: 'Prison Towns', opacity: 0 },
+                {layer: 'Prison Towns Text', opacity: 0 },
             ],
             onChapterExit: [
               
@@ -125,6 +127,8 @@ var config = {
                 {layer: 'poi-tristan text', opacity: 1 },
                 {layer: 'pointsofinterest-outline', opacity: 1 },
                 {layer: 'pointsofinterest-fill', opacity: 0.5 },
+                {layer: 'Prison Towns', opacity: 0 },
+                {layer: 'Prison Towns Text', opacity: 0 },
             ],
             onChapterExit: [
               
@@ -155,6 +159,8 @@ var config = {
                 {layer: 'pointsofinterest-fill', opacity: 0.5 },
                 {layer: 'Prison Name', opacity: 1 },
                 {layer: 'prison-boundaries-outline', opacity: 1 },
+                {layer: 'Prison Towns', opacity: 0 },
+                {layer: 'Prison Towns Text', opacity: 0 },
             ],
             onChapterExit: [
               
@@ -185,6 +191,8 @@ var config = {
                 {layer: 'pointsofinterest-fill', opacity: 0.5 },
                 {layer: 'Prison Name', opacity: 1 },
                 {layer: 'prison-boundaries-outline', opacity: 1 },
+                {layer: 'Prison Towns', opacity: 0 },
+                {layer: 'Prison Towns Text', opacity: 0 },
             ],
             onChapterExit: [
               
@@ -216,6 +224,8 @@ var config = {
                 {layer: 'pointsofinterest-fill', opacity: 0.5 },
                 {layer: 'Prison Name', opacity: 1 },
                 {layer: 'prison-boundaries-outline', opacity: 1 },
+                {layer: 'Prison Towns', opacity: 0 },
+                {layer: 'Prison Towns Text', opacity: 0 },
             ],
             onChapterExit: [
               
@@ -245,6 +255,8 @@ var config = {
                 {layer: 'poi-tristan text', opacity: 1 },
                 {layer: 'pointsofinterest-outline', opacity: 1 },
                 {layer: 'pointsofinterest-fill', opacity: 0.5 },
+                {layer: 'Prison Towns', opacity: 0 },
+                {layer: 'Prison Towns Text', opacity: 0 },
             ],
             onChapterExit: [
               
@@ -274,6 +286,8 @@ var config = {
                 {layer: 'poi-tristan text', opacity: 1 },
                 {layer: 'pointsofinterest-outline', opacity: 1 },
                 {layer: 'pointsofinterest-fill', opacity: 0.5 },
+                {layer: 'Prison Towns', opacity: 0 },
+                {layer: 'Prison Towns Text', opacity: 0 },
             ],
             onChapterExit: [
               
@@ -304,6 +318,8 @@ var config = {
                 {layer: 'pointsofinterest-fill', opacity: 0.5 },
                 {layer: 'Prison Name', opacity: 0 },
                 {layer: 'prison-boundaries-outline', opacity: 0 },
+                {layer: 'Prison Towns', opacity: 0 },
+                {layer: 'Prison Towns Text', opacity: 0 },
             ],
             onChapterExit: [
               
@@ -334,6 +350,8 @@ var config = {
                     {layer: 'pointsofinterest-fill', opacity: 0.5 },
                     {layer: 'Prison Name', opacity: 0 },
                     {layer: 'prison-boundaries-outline', opacity: 0 },
+                    {layer: 'Prison Towns', opacity: 0 },
+                    {layer: 'Prison Towns Text', opacity: 0 },
             ],
             onChapterExit: [
             
@@ -364,6 +382,8 @@ var config = {
                 {layer: 'pointsofinterest-fill', opacity: 0.5 },
                 {layer: 'Prison Name', opacity: 0 },
                 {layer: 'prison-boundaries-outline', opacity: 0 },
+                {layer: 'Prison Towns', opacity: 0 },
+                {layer: 'Prison Towns Text', opacity: 0 },
             ],
             onChapterExit: [
               
@@ -394,6 +414,8 @@ var config = {
                 {layer: 'pointsofinterest-fill', opacity: 0.5 },
                 {layer: 'Prison Name', opacity: 0 },
                 {layer: 'prison-boundaries-outline', opacity: 0 },
+                {layer: 'Prison Towns', opacity: 0 },
+                {layer: 'Prison Towns Text', opacity: 0 },
             ],
             onChapterExit: [
               
@@ -424,6 +446,8 @@ var config = {
                 {layer: 'pointsofinterest-fill', opacity: 0.5 },
                 {layer: 'Prison Name', opacity: 1 },
                 {layer: 'prison-boundaries-outline', opacity: 1 },
+                {layer: 'Prison Towns', opacity: 0 },
+                {layer: 'Prison Towns Text', opacity: 0 },
             ],
             onChapterExit: [
               
@@ -454,6 +478,8 @@ var config = {
                 {layer: 'pointsofinterest-fill', opacity: 0.5 },
                 {layer: 'Prison Name', opacity: 1},
                 {layer: 'prison-boundaries-outline', opacity: 1 },
+                {layer: 'Prison Towns', opacity: 0 },
+                {layer: 'Prison Towns Text', opacity: 0 },
             ],
             onChapterExit: [
               
@@ -484,7 +510,9 @@ var config = {
                 {layer: 'pointsofinterest-fill', opacity: 0.5 },
                 {layer: 'Prison Name', opacity: 1},
                 {layer: 'prison-boundaries-outline', opacity: 1 },
-                {layer: 'pointesofinterest-rome-fill', opacity: 0.5 }
+                {layer: 'pointesofinterest-rome-fill', opacity: 0.5 },
+                {layer: 'Prison Towns', opacity: 0 },
+                {layer: 'Prison Towns Text', opacity: 0 },
             ],
             onChapterExit: [
               
@@ -515,7 +543,9 @@ var config = {
                 {layer: 'pointsofinterest-fill', opacity: 0.5 },
                 {layer: 'Prison Name', opacity: 1},
                 {layer: 'prison-boundaries-outline', opacity: 1 },
-                {layer: 'pointesofinterest-rome-fill', opacity: 0.5 }
+                {layer: 'pointesofinterest-rome-fill', opacity: 0.5 },
+                {layer: 'Prison Towns', opacity: 0 },
+                {layer: 'Prison Towns Text', opacity: 0 },
             ],
             onChapterExit: [
               
